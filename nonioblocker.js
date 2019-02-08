@@ -4,14 +4,9 @@ window.onload = function removeAll() {
 	if(document.URL.indexOf("cmjornal.pt") >= 0){ 
 		remCookiesCM();
 		remNonio();
-		//border();
 	}
 };
 
-function border() {
-	console.log("ADD COLOR");
-	document.body.style.border = "5px solid red";
-};
 function remNonio() {
 	console.log("REMOVE NONIO - https://www.cmjornal.pt - tries=" + triesNonio);
 	triesCookies = triesCookies + 1;
