@@ -1,5 +1,5 @@
 # NONIOBlocker
-NONIO remove
+Addon for firefox NONIO remove
 
 **This add-on injects JavaScript into web pages.**
 
@@ -13,3 +13,7 @@ remove NONIO.
 
 * Remove NONIO
 * Remove cookies CMJornal
+
+## Platforms
+
+* Firefox
