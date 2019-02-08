@@ -7,7 +7,7 @@ Addon for firefox NONIO remove
 
 This extension just includes:
 * Remove NONIO
-* Remove cookies CMJornal
+* Remove cookies and login div from CMJornal
 
 ## Platforms
 
