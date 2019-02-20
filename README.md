@@ -1,14 +1,18 @@
 # NONIOBlocker
-Addon for firefox NONIO remove
-
-## What it does
 
 **This add-on injects JavaScript into web pages.**
 
+## What it does
+
 This extension just includes:
-* Remove NONIO
-* Remove cookies and login div from CMJornal
 
-## Platforms
+remove NONIO.
 
-* Firefox
+## Integrated pages
+
+* aquelamaquina.pt
+* autoportal.iol.pt
+* classificadoscm.pt
+* cmjornal.pt
+* dn.pt
+* expresso.pt
