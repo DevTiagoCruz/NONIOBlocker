@@ -1,13 +1,25 @@
 {
-	"name": "NONIOBlocker",
-	"version": "1.4",
-	"description": "NONIO remove",
+	"author": "DevTiagoCruz",
+	"browser_action": {
+		"browser_style": true,
+		"default_title": "More Info",
+		"default_popup": "info.html",
+		"default_icon": {
+			"19": "images/noniozinho.png",
+			"38": "images/noniozinho.png"
+		}
+	},
 	"content_scripts": [{
 		"matches": ["<all_urls>"],
 		"js": ["nonioblocker.js"]
 	}],
-	"icons": {
+	"description": "NONIO remove",
+	"homepage_url": "http://tiagomcruz.co.nf/",
+		"icons": {
 		"48": "images/noniozinho.png"
 	},
-	"manifest_version": 2
+	"manifest_version": 2,
+	"name": "NONIOBlocker",
+	"version": "1.8"
 }
+

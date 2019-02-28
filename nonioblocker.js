@@ -1,8 +1,8 @@
 var toRemove = "";
 var triesNonio = 0;
 var triesCookies = 0;
+var sucCount = 0;
 window.onload = function removeAll() {
-	console.log("______________BEGIN - window.onload - BEGIN______________");
 	remCookies();
 	if (document.URL.indexOf("aquelamaquina.pt") >= 0) {
 		toRemove = ["layer_gatting"];
@@ -30,6 +30,9 @@ window.onload = function removeAll() {
 	} else if (document.URL.indexOf("flash.pt") >= 0) {
 		toRemove = ["layer_gatting"];
 		removeIdNONIO(toRemove);
+	} else if (document.URL.indexOf("jn.pt") >= 0) {
+		toRemove = ["tp-modal", "tp-backdrop tp-active"];	
+		removeClassNONIO(toRemove);
 	} else if (document.URL.indexOf("maisfutebol.iol.pt") >= 0) {
 		toRemove = ["nonioBox"];
 		removeClassNONIO(toRemove);
@@ -84,43 +87,48 @@ function removeClass(elemName) {
 function removeClassNONIO(remArray) {
 	console.log("REMOVE NONIO - tries=" + triesNonio);
 	triesNonio = triesNonio + 1;
-	try {
+	var i;
+	for (i = 0; i < remArray.length; i++) {
 		try {
-			var i;
-			for (i = 0; i < remArray.length; i++) {
-				removeClass(remArray[i]);
-			}
+			removeClass(remArray[i]);
+			sucCount = sucCount + 1;
 		} catch (erro) {
 			console.log("ERRO=" + erro);
 		}
+	}
+
+	if (sucCount >= remArray.length) {
 		document.body.style.cssText = 'overflow:auto !important';
+		document.getElementsByTagName('html')[0].style.overflow = "auto";
 		triesNonio = 0;
-	} catch(erro) {
-		console.log("erro=" + erro);
+		sucCount = 0;
+	} else {
 		if (triesNonio < 5) {
 			setTimeout(function() {
 				removeClassNONIO(remArray);
 			}, 500);
-		}
-	}
+		}	
+	}	
 };
 function removeIdNONIO(remArray) {
 	console.log("REMOVE NONIO - tries=" + triesNonio);
 	triesNonio = triesNonio + 1;
-	try {
-		var i;
-		for (i = 0; i < remArray.length; i++) {
-			try {
-				document.getElementById(remArray[i]).remove();
-			} catch (erro) {
-				console.log("ERRO=" + erro);
-			}
+	var i;
+	for (i = 0; i < remArray.length; i++) {
+		try {
+			document.getElementById(remArray[i]).remove();
+			sucCount = sucCount + 1;
+		} catch (erro) {
+			console.log("ERRO=" + erro);
 		}
+	}
+	
+	if (sucCount >= remArray.length) {
 		document.body.style.cssText = 'overflow:auto !important';
 		document.getElementsByTagName('html')[0].style.overflow = "auto";
 		triesNonio = 0;
-	} catch(erro) {
-		console.log("erro=" + erro);
+		sucCount = 0;
+	} else {
 		if (triesNonio < 5) {
 			setTimeout(function() {
 				removeIdNONIO(remArray);
