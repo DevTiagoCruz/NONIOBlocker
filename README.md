@@ -8,7 +8,7 @@ This extension just includes:
 
 remove NONIO.
 
-## Integrated pages (19)
+## Integrated pages (20)
 
 * aquelamaquina.pt
 * autoportal.iol.pt
@@ -19,6 +19,7 @@ remove NONIO.
 * expresso.pt
 * flash.pt
 * jn.pt
+* jornaldenegocios.pt
 * maisfutebol.iol.pt
 * maxima.pt
 * megahits.sapo.pt
