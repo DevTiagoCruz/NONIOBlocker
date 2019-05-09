@@ -1,4 +1,4 @@
-# NONIOBlocker
+# NONIOBlocker <img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/chrome/chrome_48x48.png" width="24"/><img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/firefox/firefox_48x48.png" width="24"/>
 
 **This add-on injects JavaScript into web pages.**
 
@@ -32,3 +32,5 @@ remove NONIO.
 * smoothfm.iol.pt
 * tvi.iol.pt
 * tvi24.iol.pt
+
+# <img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/chrome/chrome_48x48.png" width="30"/> <a href="https://chrome.google.com/webstore/detail/nonioblocker/mgjhmbdcblaeiplecddckgalpiceoiaj">Plugin Chrome</a> <img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/firefox/firefox_48x48.png" width="30"/> <a href="https://addons.mozilla.org/pt-PT/firefox/addon/nonioblocker/">Plugin Firefox</a>
