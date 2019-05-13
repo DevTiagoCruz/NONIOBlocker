@@ -3,16 +3,18 @@ var triesNonio = 0;
 var triesCookies = 0;
 var sucCount = 0;
 
-if (document.URL.indexOf("abola.pt") >= 0) { //Falta NONIO
+if (document.URL.indexOf("4men.pt") >= 0) { //Falta NONIO
+	remCookies();
+} else if (document.URL.indexOf("abola.pt") >= 0) { //Falta NONIO
 	remCookies();
 } else if (document.URL.indexOf("aquelamaquina.pt") >= 0) {
 	remCookies();
 	toRemove = ["layer_gatting", "sso_layer"];
 	removeIdNONIO(toRemove);
-} else if (document.URL.indexOf("autoportal.iol.pt") >= 0) {
+} else if (document.URL.indexOf("blitz.pt") >= 0) {
 	remCookies();
-	toRemove = ["nonioBox"];
-	removeClassNONIO(toRemove);
+	toRemove = ["imp-content-gate-root"];
+	removeIdNONIO(toRemove);
 } else if (document.URL.indexOf("classificadoscm.pt") >= 0) {
 	remCookies();
 	toRemove = ["sso_layer"];
@@ -31,6 +33,12 @@ if (document.URL.indexOf("abola.pt") >= 0) { //Falta NONIO
 	remCookies();
 	toRemove = ["tp-modal", "tp-backdrop tp-active"];
 	removeClassNONIO(toRemove);
+} else if (document.URL.indexOf("evasoes.pt") >= 0) { //Falta NONIO
+	remCookies();
+//	var iframes = document.querySelectorAll('iframe');
+//	for (var i = 0; i < iframes.length; i++) {
+//		iframes[i].parentNode.removeChild(iframes[i]);
+//	}
 } else if (document.URL.indexOf("expresso.pt") >= 0) {
 	remCookies();
 	toRemove = ["imp-content-gate-root"];
@@ -39,6 +47,10 @@ if (document.URL.indexOf("abola.pt") >= 0) { //Falta NONIO
 	remCookies();
 	toRemove = ["layer_gatting"];
 	removeIdNONIO(toRemove);
+} else if (document.URL.indexOf("iol.pt") >= 0) { //autoportal;cidade;lux;m80;maisfutebol;radiocomercial;selfie;smoothfm;tvi;tvi24;tviplayer
+	remCookies();
+	toRemove = ["nonioBox"];
+	removeClassNONIO(toRemove);
 } else if (document.URL.indexOf("jn.pt") >= 0) {
 	remCookies();
 	toRemove = ["tp-modal", "tp-backdrop tp-active"];	
@@ -47,17 +59,9 @@ if (document.URL.indexOf("abola.pt") >= 0) { //Falta NONIO
 	remCookies();
 	toRemove = ["layer_gatting", "sso_layer"];	
 	removeIdNONIO(toRemove);
-} else if (document.URL.indexOf("maisfutebol.iol.pt") >= 0) {
-	remCookies();
-	toRemove = ["nonioBox"];
-	removeClassNONIO(toRemove);
 } else if (document.URL.indexOf("maxima.pt") >= 0) {
 	remCookies();
 	toRemove = ["layer_gatting", "sso_layer"];
-	removeIdNONIO(toRemove);
-} else if (document.URL.indexOf("megahits.sapo.pt") >= 0) {
-	remCookies();
-	toRemove = ["wrapperContentGatingNonio"];
 	removeIdNONIO(toRemove);
 } else if (document.URL.indexOf("motor24.pt") >= 0) {
 	remCookies();
@@ -75,41 +79,57 @@ if (document.URL.indexOf("abola.pt") >= 0) { //Falta NONIO
 	for (var i = 0; i < iframes.length; i++) {
 		iframes[i].parentNode.removeChild(iframes[i]);
 	}
+} else if (document.URL.indexOf("publico.pt") >= 0) {
+	toRemove = ["warning-nonio-overlay"];	
+	removeClassNONIO(toRemove);
 } else if (document.URL.indexOf("ojogo.pt") >= 0) {
 	remCookies();
 	toRemove = ["tp-modal", "tp-backdrop tp-active"];	
-	removeClassNONIO(toRemove);
-} else if (document.URL.indexOf("radiocomercial.iol.pt") >= 0) {
-	remCookies();
-	toRemove = ["nonioBox"];
 	removeClassNONIO(toRemove);
 } else if (document.URL.indexOf("record.pt") >= 0) {
 	remCookies();
 	toRemove = ["layer_gatting"];
 	removeIdNONIO(toRemove);
-} else if (document.URL.indexOf("sapo.pt") >= 0) { //Falta NONIO
+} else if (document.URL.indexOf("sabado.pt") >= 0) {
 	remCookies();
-} else if (document.URL.indexOf("selfie.iol.pt") >= 0) {
+	toRemove = ["layer_gatting"];
+	removeIdNONIO(toRemove);
+} else if (document.URL.indexOf("sapo.pt") >= 0) { //megahits,rfm,rr
 	remCookies();
-	toRemove = ["nonioBox"];
-	removeClassNONIO(toRemove);
-} else if (document.URL.indexOf("smoothfm.iol.pt") >= 0) {
+	toRemove = ["wrapperContentGatingNonio"];
+	removeIdNONIO(toRemove);
+} else if (document.URL.indexOf("siccaras.pt") >= 0) {
 	remCookies();
-	toRemove = ["nonioBox"];
-	removeClassNONIO(toRemove);
-} else if (document.URL.indexOf("tvi.iol.pt") >= 0) {
+	toRemove = ["imp-content-gate-root"];
+	removeIdNONIO(toRemove);
+} else if (document.URL.indexOf("sickapa.pt") >= 0) {
 	remCookies();
-	toRemove = ["nonioBox"];
-	removeClassNONIO(toRemove);
-} else if (document.URL.indexOf("tvi24.iol.pt") >= 0) {
+	toRemove = ["imp-content-gate-root"];
+	removeIdNONIO(toRemove);
+} else if (document.URL.indexOf("sicmulher.pt") >= 0) {
 	remCookies();
-	toRemove = ["nonioBox"];
-	removeClassNONIO(toRemove);
+	toRemove = ["imp-content-gate-root"];
+	removeIdNONIO(toRemove);
+} else if (document.URL.indexOf("sicnoticias.pt") >= 0) {
+	remCookies();
+	toRemove = ["imp-content-gate-root"];
+	removeIdNONIO(toRemove);
+} else if (document.URL.indexOf("sicradical.pt") >= 0) {
+	remCookies();
+	toRemove = ["imp-content-gate-root"];
+	removeIdNONIO(toRemove);
+} else if (document.URL.indexOf("tsf.pt") >= 0) {
+	remCookies();
+	var iframes = document.querySelectorAll('iframe');
+	for (var i = 0; i < iframes.length; i++) {
+		iframes[i].parentNode.removeChild(iframes[i]);
+	}
+} else if (document.URL.indexOf("vidas.pt") >= 0) {
+	remCookies();
+	toRemove = ["layer_gatting"];
+	removeIdNONIO(toRemove);
 };
-/*	
-sic
-imp-content-gate-root
-*/
+
 function removeClass(elemName) {
 	var elem = document.getElementsByClassName(elemName);
 	elem[0].remove();
@@ -133,10 +153,10 @@ function removeClassNONIO(remArray) {
 		triesNonio = 0;
 		sucCount = 0;
 	} else {
-		if (triesNonio < 5) {
+		if (triesNonio < 40) {
 			setTimeout(function() {
 				removeClassNONIO(remArray);
-			}, 500);
+			}, 150);
 		}	
 	}	
 };
@@ -160,10 +180,10 @@ function removeIdNONIO(remArray) {
 		triesNonio = 0;
 		sucCount = 0;
 	} else {
-		if (triesNonio < 5) {
+		if (triesNonio < 40) {
 			setTimeout(function() {
 				removeIdNONIO(remArray);
-			}, 500);
+			}, 150);
 		}
 	}
 };
@@ -177,10 +197,10 @@ function remCookies() {
 		triesCookies = 0;
 	} catch(erro) {
 		//console.log("erro=" + erro);
-		if (triesCookies < 5) {
+		if (triesCookies < 40) {
 			setTimeout(function() {
 				remCookies();
-			}, 500);
+			}, 150);
 		}
 	}
 }

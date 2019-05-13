@@ -10,16 +10,20 @@
 		}
 	},
 	"content_scripts": [{
-		"matches": ["<all_urls>"],
+		"matches": ["*://*.4men.pt/*", "*://*.abola.pt/*", "*://*.aquelamaquina.pt/*", "*://*.blitz.pt/*", "*://*.classificadoscm.pt/*", "*://*.cmjornal.pt/*", "*://*.dinheirovivo.pt/*", "*://*.dn.pt/*",
+		"*://*.evasoes.pt/*", "*://*.expresso.pt/*", "*://*.flash.pt/*", "*://*.iol.pt/*", "*://*.jn.pt/*", "*://*.jornaldenegocios.pt/*", "*://*.maxima.pt/*", "*://*.motor24.pt/*",
+		"*://*.noticiasaominuto.com/*", "*://*.noticiasmagazine.pt/*", "*://*.publico.pt/*", "*://*.ojogo.pt/*", "*://*.record.pt/*", "*://*.sabado.pt/*", "*://*.sapo.pt/*", "*://*.siccaras.pt/*",
+		"*://*.sickapa.pt/*", "*://*.sicmulher.pt/*", "*://*.sicnoticias.pt/*", "*://*.sicradical.pt/*", "*://*.tsf.pt/*", "*://*.vidas.pt/*"],
 		"js": ["nonioblocker.js"]
 	}],
-	"description": "NONIO remove",
+	"description": "NONIOBlocker - remover o NONIO nunca foi tão fácil",
 	"homepage_url": "http://tiagomcruz.co.nf/",
 		"icons": {
 		"48": "images/noniozinho.png"
 	},
 	"manifest_version": 2,
 	"name": "NONIOBlocker",
-	"version": "1.16"
+	"short_name": "NONIOBlocker",
+	"version": "1.20"
 }
 
