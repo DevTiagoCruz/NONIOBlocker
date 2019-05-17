@@ -1,12 +1,7 @@
 # NONIOBlocker <img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/chrome/chrome_48x48.png" width="24"/><img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/firefox/firefox_48x48.png" width="24"/>
 
-**This add-on injects JavaScript into web pages.**
-
-## What it does
-
-This extension just includes:
-
-remove NONIO.
+**Remover o NONIO nunca foi tão fácil**
+<br>Dê mais valor à sua privacidade na Web com a ajuda do NONIOBlocker, através deste addon vai ser possível continuar a ler as noticias sem o NONIO.
 
 ## Integrated pages (39)
 
