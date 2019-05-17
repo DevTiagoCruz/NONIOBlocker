@@ -23,8 +23,8 @@
 		"48": "images/noniozinho.png"
 	},
 	"manifest_version": 2,
-	"name": "NONIOBlocker",
+	"name": "NONIOBlocker | remove o popup do NONIO",
 	"short_name": "NONIOBlocker",
-	"version": "1.21"
+	"version": "1.22"
 }
 

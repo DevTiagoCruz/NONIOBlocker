@@ -8,7 +8,7 @@ This extension just includes:
 
 remove NONIO.
 
-## Integrated pages (38)
+## Integrated pages (39)
 
 * aquelamaquina.pt
 * autoportal.iol.pt
@@ -32,6 +32,7 @@ remove NONIO.
 * publico.pt
 * ojogo.pt
 * radiocomercial.iol.pt
+* radiosim.sapo.pt
 * record.pt
 * rfm.sapo.pt
 * rr.sapo.pt
