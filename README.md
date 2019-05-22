@@ -3,17 +3,19 @@
 **Remover o NONIO nunca foi tão fácil**
 <br>Dê mais valor à sua privacidade na Web com a ajuda do NONIOBlocker, através deste addon vai ser possível continuar a ler as noticias sem o NONIO.
 
-## Integrated pages (39)
+## Total de <b>45</b> sites
 
 * aquelamaquina.pt
 * autoportal.iol.pt
 * blitz.pt
+* boacamaboamesa.expresso.pt
 * cidade.iol.pt
 * classificadoscm.pt
 * cmjornal.pt
 * dinheirovivo.pt
 * dn.pt
 * expresso.pt
+* famashow.pt
 * flash.pt
 * jn.pt
 * jornaldenegocios.pt
@@ -33,16 +35,20 @@
 * rr.sapo.pt
 * sabado.pt
 * selfie.iol.pt
+* sic.pt
+* sic.pt/sicesperanca
 * siccaras.pt
 * sickapa.pt
 * sicmulher.pt
 * sicnoticias.pt
 * sicradical.pt
 * smoothfm.iol.pt
+* tribunaexpresso.pt
+* tsf.pt
 * tvi.iol.pt
 * tvi24.iol.pt
 * tviplayer.iol.pt
-* tsf.pt
+* vidaextra.expresso.pt
 * vidas.pt
 
 # <img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/chrome/chrome_48x48.png" width="30"/> <a href="https://chrome.google.com/webstore/detail/nonioblocker/mgjhmbdcblaeiplecddckgalpiceoiaj">Plugin Chrome</a> <img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/firefox/firefox_48x48.png" width="30"/> <a href="https://addons.mozilla.org/pt-PT/firefox/addon/nonioblocker/">Plugin Firefox</a>

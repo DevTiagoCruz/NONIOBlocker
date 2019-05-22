@@ -39,7 +39,7 @@ if (document.URL.indexOf("4men.pt") >= 0) { //Falta NONIO
 //	for (var i = 0; i < iframes.length; i++) {
 //		iframes[i].parentNode.removeChild(iframes[i]);
 //	}
-} else if (document.URL.indexOf("expresso.pt") >= 0) {
+} else if ((document.URL.indexOf("expresso.pt") >= 0) || (document.URL.indexOf("famashow.pt") >= 0)) {
 	remCookies();
 	toRemove = ["imp-content-gate-root"];
 	removeIdNONIO(toRemove);
@@ -98,7 +98,7 @@ if (document.URL.indexOf("4men.pt") >= 0) { //Falta NONIO
 	remCookies();
 	toRemove = ["wrapperContentGatingNonio"];
 	removeIdNONIO(toRemove);
-} else if (document.URL.indexOf("siccaras.pt") >= 0) {
+} else if ((document.URL.indexOf("sic.pt") >= 0) || (document.URL.indexOf("siccaras.pt") >= 0)) {
 	remCookies();
 	toRemove = ["imp-content-gate-root"];
 	removeIdNONIO(toRemove);
@@ -114,7 +114,7 @@ if (document.URL.indexOf("4men.pt") >= 0) { //Falta NONIO
 	remCookies();
 	toRemove = ["imp-content-gate-root"];
 	removeIdNONIO(toRemove);
-} else if (document.URL.indexOf("sicradical.pt") >= 0) {
+} else if ((document.URL.indexOf("sicradical.pt") >= 0) || (document.URL.indexOf("tribunaexpresso.pt") >= 0)) {
 	remCookies();
 	toRemove = ["imp-content-gate-root"];
 	removeIdNONIO(toRemove);
