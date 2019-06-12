@@ -3,6 +3,7 @@ var triesNonio = 0;
 var triesCookies = 0;
 var sucCount = 0;
 
+console.log("BEGIN");
 if (document.URL.indexOf("4men.pt") >= 0) { //Falta NONIO
 	remCookies();
 } else if (document.URL.indexOf("abola.pt") >= 0) { //Falta NONIO
@@ -21,7 +22,7 @@ if (document.URL.indexOf("4men.pt") >= 0) { //Falta NONIO
 	removeIdNONIO(toRemove);
 } else if (document.URL.indexOf("cmjornal.pt") >= 0) {
 	remCookies();
-	toRemove = ["layer_gatting", "sso_layer"];
+	toRemove = ["layer_gatting", "layer_gattingLN158779e703c0cf0052639127a684ef48", "sso_layer"];
 	removeIdNONIO(toRemove);
 } else if (document.URL.indexOf("dinheirovivo.pt") >= 0) {
 	remCookies();
