@@ -4,7 +4,6 @@ html, body {overflow:auto!important}
 .qc-cmp-ui-showing {overflow:auto!important;}
 .THeJ9-M65ffe_65xrtgNL {overflow:auto!important}
 #layer_gatting {display:none!important}
-#layer_gattingLN158779e703c0cf0052639127a684ef48 {display:none!important}
 #imp-content-gate-root {display:none!important}
 
 #gigya-screen-dialog-page-overlay {display:none!important}
@@ -15,3 +14,7 @@ html, body {overflow:auto!important}
 .is-reveal-open {overflow:auto!important}
 .qc-cmp-ui-container.qc-cmp-showing {display:none!important;visibility:hidden!important}
 .reveal-overlay {display:none!important}
+
+div[id^="layer_gatting"] {
+  display:none!important
+}

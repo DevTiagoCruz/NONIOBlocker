@@ -89,7 +89,7 @@ if (document.URL.indexOf("4men.pt") >= 0) { //Falta NONIO
 	removeClassNONIO(toRemove);
 } else if (document.URL.indexOf("record.pt") >= 0) {
 	remCookies();
-	toRemove = ["layer_gatting"];
+	toRemove = ["layer_gatting", "layer_gattingLNe29da2b0224236971ac4a0cc518535f7"];
 	removeIdNONIO(toRemove);
 } else if (document.URL.indexOf("sabado.pt") >= 0) {
 	remCookies();
