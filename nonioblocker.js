@@ -204,4 +204,4 @@ function remCookies() {
 			}, 150);
 		}
 	}
-}
+};
