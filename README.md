@@ -51,4 +51,14 @@
 * vidaextra.expresso.pt
 * vidas.pt
 
-# <img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/chrome/chrome_48x48.png" width="30"/> <a href="https://chrome.google.com/webstore/detail/nonioblocker/mgjhmbdcblaeiplecddckgalpiceoiaj">Plugin Chrome</a> <img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/firefox/firefox_48x48.png" width="30"/> <a href="https://addons.mozilla.org/pt-PT/firefox/addon/nonioblocker/">Plugin Firefox</a>
+# <img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/chrome/chrome_48x48.png" width="30"/> Plugin Chrome <img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/firefox/firefox_48x48.png" width="30"/> <a href="https://addons.mozilla.org/pt-PT/firefox/addon/nonioblocker/">Plugin Firefox</a>
+
+Passos para a instalação no Chrome:
+1º Fazer o donwload do projecto carregando em "Clone or download" e escolher a opção "Download ZIP";
+2º Extrair os ficheiros do ZIP;
+3º Abrir o Chrome se estiver a usar outro browser;
+4º Colocar "chrome://extensions/" na barra de url e carregar enter;
+5º Activar o modo programador no canto superior direito;
+6º Clicar no botão "carregar expandida"
+7º Abir a pasta da extensão
+8º Carregar detalhes e aceitar "permitir em modo de navegação anónima"
