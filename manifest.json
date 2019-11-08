@@ -11,20 +11,20 @@
 	},
 	"content_scripts": [{
 		"matches": ["*://*.4men.pt/*", "*://*.abola.pt/*", "*://*.aquelamaquina.pt/*", "*://*.blitz.pt/*", "*://*.classificadoscm.pt/*", "*://*.cmjornal.pt/*", "*://*.dinheirovivo.pt/*", "*://*.dn.pt/*",
-		"*://*.evasoes.pt/*", "*://*.expresso.pt/*", "*://*.famashow.pt/*", "*://*.flash.pt/*", "*://*.iol.pt/*", "*://*.jn.pt/*", "*://*.jornaldenegocios.pt/*", "*://*.maxima.pt/*", "*://*.motor24.pt/*",
-		"*://*.noticiasaominuto.com/*", "*://*.noticiasmagazine.pt/*", "*://*.publico.pt/*", "*://*.ojogo.pt/*", "*://*.record.pt/*", "*://*.sabado.pt/*", "*://*.sapo.pt/*", "*://*.sic.pt/*",
+		"*://*.evasoes.pt/*", "*://*.expresso.pt/*", "*://*.famashow.pt/*", "*://*.flash.pt/*", "*://*.iol.pt/*", "*://*.jn.pt/*", "*://*.jornaldenegocios.pt/*", "*://*.maxima.pt/*", "*://*.menshealth.pt/*", 
+		"*://*.motor24.pt/*", "*://*.noticiasaominuto.com/*", "*://*.noticiasmagazine.pt/*", "*://*.publico.pt/*", "*://*.ojogo.pt/*", "*://*.record.pt/*", "*://*.sabado.pt/*", "*://*.sapo.pt/*", "*://*.sic.pt/*", 
 		"*://*.siccaras.pt/*", "*://*.sickapa.pt/*", "*://*.sicmulher.pt/*", "*://*.sicnoticias.pt/*", "*://*.sicradical.pt/*", "*://*.tribunaexpresso.pt/*", "*://*.tsf.pt/*", "*://*.vidas.pt/*"],
 		"js": ["nonioblocker.js"],
 		"css": ["nonioblocker.css"]
 	}],
 	"description": "NONIOBlocker - remover o NONIO nunca foi tão fácil",
-	"homepage_url": "http://tiagomcruz.co.nf/",
+	"homepage_url": "http://devtiagocruz.c1.biz/",
 		"icons": {
 		"48": "images/noniozinho.png"
 	},
 	"manifest_version": 2,
 	"name": "NONIOBlocker | remove o popup do NONIO",
 	"short_name": "NONIOBlocker",
-	"version": "1.27"
+	"version": "1.29"
 }
 

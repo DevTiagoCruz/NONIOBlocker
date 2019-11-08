@@ -64,6 +64,26 @@ if (document.URL.indexOf("4men.pt") >= 0) { //Falta NONIO
 	remCookies();
 	toRemove = ["layer_gatting", "sso_layer"];
 	removeIdNONIO(toRemove);
+} else if (document.URL.indexOf("menshealth.pt") >= 0) {
+	remCookies();
+	
+	/*
+	var element = document.getElementsByClassName("df-post-content");
+	element[0].classList.remove("df-post-content");
+	*/
+	
+	var e = document.getElementsByTagName('article')[0];
+	var d = document.createElement('nonio');
+	d.innerHTML = e.innerHTML;
+
+	e.parentNode.insertBefore(d, e);
+	e.parentNode.removeChild(e);
+	
+	
+	var iframes = document.querySelectorAll('iframe');
+	for (var i = 0; i < iframes.length; i++) {
+		iframes[i].parentNode.removeChild(iframes[i]);
+	}
 } else if (document.URL.indexOf("motor24.pt") >= 0) {
 	remCookies();
 	var iframes = document.querySelectorAll('iframe');
