@@ -1,7 +1,7 @@
 # NONIOBlocker <img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/chrome/chrome_48x48.png" width="24"/><img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/firefox/firefox_48x48.png" width="24"/>
 
 **Remover o NONIO nunca foi tão fácil**
-<br>Dê mais valor à sua privacidade na Web com a ajuda do NONIOBlocker, através deste addon vai ser possível continuar a ler as noticias sem o NONIO.
+<br>Dê mais valor à sua privacidade na Web com a ajuda do NONIOBlocker, através deste addon vai ser possível continuar a ler as notícias sem o NONIO.
 
 ## Total de 46 sites
 
@@ -63,11 +63,11 @@ Passos para a instalação no Firefox:
 
 # <img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/chrome/chrome_48x48.png" width="30"/> Plugin Chrome
 Passos para a instalação no Chrome:
-<br>1º Fazer o donwload do projecto carregando em "Clone or download" e escolher a opção "Download ZIP";
+<br>1º Fazer o download do projecto carregando em "Clone or download" e escolher a opção "Download ZIP";
 <br>2º Extrair os ficheiros do ZIP;
 <br>3º Abrir o Chrome se estiver a usar outro browser;
 <br>4º Colocar "chrome://extensions/" na barra de url e carregar enter;
-<br>5º Activar o modo programador no canto superior direito;
+<br>5º Ativar o modo programador no canto superior direito;
 <br>6º Clicar no botão "carregar expandida";
-<br>7º Abir a pasta da extensão;
+<br>7º Abrir a pasta da extensão;
 <br>8º Carregar detalhes e aceitar "permitir em modo de navegação anónima".
