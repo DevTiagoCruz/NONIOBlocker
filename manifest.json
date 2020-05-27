@@ -12,7 +12,7 @@
 	"content_scripts": [{
 		"matches": ["*://*.4men.pt/*", "*://*.abola.pt/*", "*://*.aquelamaquina.pt/*", "*://*.blitz.pt/*", "*://*.classificadoscm.pt/*", "*://*.cmjornal.pt/*", "*://*.dinheirovivo.pt/*", "*://*.dn.pt/*",
 		"*://*.evasoes.pt/*", "*://*.expresso.pt/*", "*://*.famashow.pt/*", "*://*.flash.pt/*", "*://*.iol.pt/*", "*://*.jn.pt/*", "*://*.jornaldenegocios.pt/*", "*://*.maxima.pt/*", "*://*.menshealth.pt/*", 
-		"*://*.motor24.pt/*", "*://*.noticiasaominuto.com/*", "*://*.noticiasmagazine.pt/*", "*://*.publico.pt/*", "*://*.ojogo.pt/*", "*://*.record.pt/*", "*://*.sabado.pt/*", "*://*.sapo.pt/*", "*://*.sic.pt/*", 
+		"*://*.motor24.pt/*", "*://*.noticiasaominuto.com/*", "*://*.noticiasmagazine.pt/*", "*://*.ojogo.pt/*", "*://*.record.pt/*", "*://*.sabado.pt/*", "*://*.sapo.pt/*", "*://*.sic.pt/*", 
 		"*://*.siccaras.pt/*", "*://*.sickapa.pt/*", "*://*.sicmulher.pt/*", "*://*.sicnoticias.pt/*", "*://*.sicradical.pt/*", "*://*.tribunaexpresso.pt/*", "*://*.tsf.pt/*", "*://*.vidas.pt/*"],
 		"js": ["nonioblocker.js"],
 		"css": ["nonioblocker.css"]
