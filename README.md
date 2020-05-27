@@ -3,7 +3,7 @@
 **Remover o NONIO nunca foi tão fácil**
 <br>Dê mais valor à sua privacidade na Web com a ajuda do NONIOBlocker, através deste addon vai ser possível continuar a ler as notícias sem o NONIO.
 
-## Total de 46 sites
+## Total de 45 sites
 
 * aquelamaquina.pt
 * autoportal.iol.pt
@@ -27,7 +27,6 @@
 * menshealth.pt
 * motor24.pt
 * noticiasmagazine.pt
-* publico.pt
 * ojogo.pt
 * radiocomercial.iol.pt
 * radiosim.sapo.pt
