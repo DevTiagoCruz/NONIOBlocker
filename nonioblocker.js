@@ -100,9 +100,6 @@ if (document.URL.indexOf("4men.pt") >= 0) { //Falta NONIO
 	for (var i = 0; i < iframes.length; i++) {
 		iframes[i].parentNode.removeChild(iframes[i]);
 	}
-} else if (document.URL.indexOf("publico.pt") >= 0) {
-	toRemove = ["warning-nonio-overlay"];	
-	removeClassNONIO(toRemove);
 } else if (document.URL.indexOf("ojogo.pt") >= 0) {
 	remCookies();
 	toRemove = ["tp-modal", "tp-backdrop tp-active"];	
