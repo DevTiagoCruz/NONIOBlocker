@@ -1,4 +1,4 @@
-# NONIOBlocker <img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/chrome/chrome_48x48.png" width="24"/><img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/firefox/firefox_48x48.png" width="24"/>
+## NONIOBlocker <img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/chrome/chrome_48x48.png" width="24"/><img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/firefox/firefox_48x48.png" width="24"/>
 
 **Remover o NONIO nunca foi tão fácil**
 <br>Dê mais valor à sua privacidade na Web com a ajuda do NONIOBlocker, através deste addon vai ser possível continuar a ler as notícias sem o NONIO.
@@ -54,14 +54,14 @@
 
 ## Como instalar?
 
-# <img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/firefox/firefox_48x48.png" width="30"/> <a href="https://addons.mozilla.org/pt-PT/firefox/addon/nonioblocker/">Plugin Firefox</a>
+# <img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/firefox/firefox_48x48.png" width="30"/> <a href="https://addons.mozilla.org/pt-PT/firefox/addon/nonioblocker/">Plugin Firefox</a> <img alt="Mozilla Add-on" src="https://img.shields.io/amo/users/NONIOBlocker"> <img alt="Mozilla Add-on" src="https://img.shields.io/amo/v/NONIOBlocker">
 Passos para a instalação no Firefox:
 <br>1º Abrir o seguinte link <a href="https://addons.mozilla.org/pt-PT/firefox/addon/nonioblocker/">PLUGIN</a>;
 <br>2º Carregar no botão "+ Adicionar ao Firefox";
 <br>3º Colocar "about:addons" na barra de url e carregar enter;
 <br>4º Carregar sobre o plugin e "permitir em modo de navegação anónima".
 
-# <img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/chrome/chrome_48x48.png" width="30"/> <a href="https://chrome.google.com/webstore/detail/nonioblocker-remove-o-pop/mgjhmbdcblaeiplecddckgalpiceoiaj">Plugin Chrome</a>
+# <img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/chrome/chrome_48x48.png" width="30"/> <a href="https://chrome.google.com/webstore/detail/nonioblocker-remove-o-pop/mgjhmbdcblaeiplecddckgalpiceoiaj">Plugin Chrome</a> <img alt="Chrome Web Store" src="https://img.shields.io/chrome-web-store/users/mgjhmbdcblaeiplecddckgalpiceoiaj?color=blue"> <img alt="Chrome Web Store" src="https://img.shields.io/chrome-web-store/v/mgjhmbdcblaeiplecddckgalpiceoiaj">
 Passos para a instalação no Chrome:
 <br>1º Abrir o seguinte link <a href="https://chrome.google.com/webstore/detail/nonioblocker-remove-o-pop/mgjhmbdcblaeiplecddckgalpiceoiaj">PLUGIN</a>;
 <br>2º Carregar no botão "Instalar";
