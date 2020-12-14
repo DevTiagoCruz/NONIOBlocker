@@ -61,13 +61,9 @@ Passos para a instalação no Firefox:
 <br>3º Colocar "about:addons" na barra de url e carregar enter;
 <br>4º Carregar sobre o plugin e "permitir em modo de navegação anónima".
 
-# <img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/chrome/chrome_48x48.png" width="30"/> Plugin Chrome
+# <img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/chrome/chrome_48x48.png" width="30"/> <a href="https://chrome.google.com/webstore/detail/nonioblocker-remove-o-pop/mgjhmbdcblaeiplecddckgalpiceoiaj">Plugin Chrome</a>
 Passos para a instalação no Chrome:
-<br>1º Fazer o download do projecto carregando em "Clone or download" e escolher a opção "Download ZIP";
-<br>2º Extrair os ficheiros do ZIP;
-<br>3º Abrir o Chrome se estiver a usar outro browser;
-<br>4º Colocar "chrome://extensions/" na barra de url e carregar enter;
-<br>5º Ativar o modo programador no canto superior direito;
-<br>6º Clicar no botão "carregar expandida";
-<br>7º Abrir a pasta da extensão;
-<br>8º Carregar detalhes e aceitar "permitir em modo de navegação anónima".
+<br>1º Abrir o seguinte link <a href="https://chrome.google.com/webstore/detail/nonioblocker-remove-o-pop/mgjhmbdcblaeiplecddckgalpiceoiaj">PLUGIN</a>;
+<br>2º Carregar no botão "Instalar";
+<br>3º Colocar "chrome://extensions/" na barra de url e carregar enter;
+<br>4º Carregar em "detalhes" do plugin e "Permitir em modo de navegação anónima".
